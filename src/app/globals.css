@@ -1,9 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 
 h1{
   font-size: large;
   font-weight: 900;
 }
+=======
+  
+>>>>>>> 28670b236975ad38c35c01fd572b22001068d679
