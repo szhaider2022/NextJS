@@ -1,28 +1,29 @@
 'use client'
-import { Button } from "@/components/ui/button"
-import { Bold } from "lucide-react";
-import { useCallback } from "react";
-
-function MyButton() {
-  //function MyButton() {
-    function handleClick() {
-      alert('You clicked me!');
-    }
-  
-    return (
-      <Button variant="outline" onClick={handleClick} >
-        I'm a button
-      </Button>
-    );
-  }
-  
-
+import MyButton from "@/components/mybutton";
+import { useState } from "react";
+{/* Update counter seperately*/}
+// export default function myApp() {
+//   return (
+//       <div>
+//           <h1>Counters that update seperately</h1>
+          
+//                 <MyButton/>
+//                 <MyButton/>
+//       </div>
+//   )
+// }
+{/* Update counter together*/}
 export default function myApp() {
+  const [count, setCount]=useState(0);
+  function handleClick(){
+    setCount(count+1);
+  }
   return (
       <div>
-          <h1>Welcome to my app</h1>
+          <h1>Counters that update together</h1>
           
-                <MyButton/>
+                <MyButton count={count} onClick={handleClick}/><br/>
+                <MyButton count={count} onClick={handleClick}/>
       </div>
   )
 }
@@ -47,4 +48,4 @@ export default function myApp() {
 //   return  (
 //     <ul>{listItems}</ul>
 //   );
-// }
+// }  
