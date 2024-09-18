@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 :root {
   --background: #ffffff;
@@ -25,3 +26,15 @@ body {
     text-wrap: balance;
   }
 }
+=======
+<<<<<<< HEAD
+
+
+h1{
+  font-size: large;
+  font-weight: 900;
+}
+=======
+  
+>>>>>>> 28670b236975ad38c35c01fd572b22001068d679
+>>>>>>> dbeb70bc2e2052cbb3232c18cd930bb33338aaa0

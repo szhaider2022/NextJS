@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "mysanityapp",
+=======
+<<<<<<< HEAD
+  "name": "myapp",
+=======
+  "name": "project2",
+>>>>>>> 28670b236975ad38c35c01fd572b22001068d679
+>>>>>>> dbeb70bc2e2052cbb3232c18cd930bb33338aaa0
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +17,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@sanity/icons": "^3.4.0",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.57.4",
@@ -18,13 +27,42 @@
     "react-dom": "^18",
     "sanity": "^3.57.4",
     "styled-components": "^6.1.13"
+=======
+<<<<<<< HEAD
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@types/react-leaflet": "^3.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.441.0",
+    "next": "^14.2.5",
+=======
+    "@radix-ui/react-dialog": "^1.1.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.436.0",
+    "next": "^14.2.7",
+>>>>>>> 28670b236975ad38c35c01fd572b22001068d679
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+>>>>>>> dbeb70bc2e2052cbb3232c18cd930bb33338aaa0
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
+<<<<<<< HEAD
     "eslint-config-next": "14.2.12",
+=======
+<<<<<<< HEAD
+    "eslint-config-next": "14.2.5",
+=======
+    "eslint-config-next": "14.2.7",
+>>>>>>> 28670b236975ad38c35c01fd572b22001068d679
+>>>>>>> dbeb70bc2e2052cbb3232c18cd930bb33338aaa0
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
